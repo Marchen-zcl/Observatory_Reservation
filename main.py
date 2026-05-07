@@ -5,9 +5,8 @@ import ddddocr
 from config_log import logger
 requests.packages.urllib3.disable_warnings()
 import ntp
-wxuser="226607ec9c3b47eaa919020144fb857a" or input("请输入wxuser：")
+wxuser="" or input("请输入wxuser：")
 user_info=[
-    
 ]
 
 def post(url,params,payload,headers,cookies=None):
