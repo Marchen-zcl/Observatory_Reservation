@@ -208,7 +208,7 @@ if __name__ == "__main__":
     print("[q] 退出程序")
 
     choice = input("\n请选择功能: ")
-    token= input("请输入token: ") or "fe18a47623a14a7497f7211bd6a339bc"
+    token= input("请输入token: ") or ""
     if choice == '1':
         target_date = input("请输入日期 (格式: YYYYMMDD，如20241025): ")
         target_spec = input("请输入船班 (直接回车表示查询所有船班): ") or "17:00开航"
