@@ -7,18 +7,7 @@ requests.packages.urllib3.disable_warnings()
 import ntp
 wxuser="226607ec9c3b47eaa919020144fb857a" or input("请输入wxuser：")
 user_info=[
-    {
-        "name": "赵晨龙",
-        "cardNumber": "513423200111100019",
-        "sex": "0",
-        "mobile": "18980286350"
-    },
-    {
-        "name": "秦雯",
-        "cardNumber": "513902200110153982",
-        "sex": "1",
-        "mobile": "18980286350"
-    }
+    
 ]
 
 def post(url,params,payload,headers,cookies=None):
