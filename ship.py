@@ -9,7 +9,7 @@ def post_msg(content):
     url = "https://www.pushplus.plus/send"
 
     payload = json.dumps({
-        "token": "a098c719139b42cab4ff86b05f719dc2",
+        "token": "",
         "title": "有船票啦",
         "content": content
     })
